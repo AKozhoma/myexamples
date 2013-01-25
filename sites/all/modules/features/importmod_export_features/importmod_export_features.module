@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Importmod_export_features feature.
+ */
+
+include_once 'importmod_export_features.features.inc';

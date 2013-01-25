@@ -1,0 +1,181 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block { /* Block wrapper */
+  margin-bottom: 20px;
+  font-size:13px;
+  background-image: url('../images/bg/reg_user.jpg');
+  padding: 10px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -ms-border-radius: 15px 15px 15px 15px;
+  -o-border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px;	 
+}
+
+.block.first { /* The first block in the region */
+}
+
+.block.last { /* The last block in the region */
+}
+
+.block.odd { /* Zebra striping for each block in the region */
+}
+
+.block.even { /* Zebra striping for each block in the region */
+}
+
+h2.block-title { /* Block title */
+	font-size: 14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 { /* First block created with "Add block" link */
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent ul { /* "Recent comments" block */
+  list-style-type: none;
+  display: block;
+  padding: 0px;
+  font-size: 14px;
+}
+
+#block-comment-recent a:link,
+#block-comment-recent a:visited {
+  color: #006699;
+}
+
+#block-comment-recent a:hover,
+#block-comment-recent a:active {
+  color: #006666;	
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+#block-search-form { /* "Search form" block */
+  font-size: 13px;
+  padding: 5px;	
+}
+
+#block-search-form textarea,
+#block-search-form input {
+  margin 2px;
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+  font-size: 15px;
+}
+
+#block-system-main-menu a:link,
+#block-system-main-menu	a:visited {
+  color: #006699;
+  border: none;
+}
+
+#block-system-main-menu a:hover,
+#block-system-main-menu	a:active {
+  color: #006666;	
+}
+
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+}
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+  font-size: 13px;
+  color: #000000;
+}
+
+#block-user-login ul {
+  list-style-type: none;
+  display: block;
+  padding: 0px;
+}
+
+#block-user-login a:link,
+#block-user-login a:visited {
+  font-size: 13px;
+  color: #006699;
+}
+
+#block-user-login a:hover,
+#block-user-login a:active {
+  font-size: 13px;
+  color: #006666;
+}
+
+#block-user-new ul li { /* "Who's new" block for a list of the newest users */
+  padding: 0px;
+}
+
+#block-user-new ul li a:link,
+#block-user-new ul li a:visited {
+  font-size: 13px;
+  color: #006699;
+}
+
+#block-user-new ul li a:hover,
+#block-user-new ul li a:active {
+  font-size: 13px;
+  color: #006666;
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}

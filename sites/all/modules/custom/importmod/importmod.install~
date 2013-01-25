@@ -1,0 +1,67 @@
+<?php
+
+/**
+ * Realization hook_install ()
+ */
+function importmod_install () {
+  drupal_install_schema ('importmod');
+}
+
+/**
+ * Realization hook_uninstall ()
+ */
+function importmod_uninstall () {
+  drupal_uninstall_schema ('importmod');
+}
+
+/**
+ * Realization hook_schema ()
+ */
+function importmod_schema () {
+  $schema['importmod'] = array (
+    'description' => t ("Stores additional fields for nodes of type 'user'."),
+    'fields' => array (
+      'nid' => array (
+        'type' => 'int',
+        'not null' => TRUE,
+        'unsigned' => TRUE,
+        'default' => 0,
+      ),
+      'vid' => array (
+        'type' => 'int',
+        'not null' => TRUE,
+        'unsigned' => TRUE,
+        'default' => 0,
+      ),
+      'name' => array (
+        'type' => 'text',
+        'not null' => TRUE,
+      ),
+      'lastname' => array (
+        'type' => 'text',
+        'not null' => TRUE,
+      ),
+      'mail' => array (
+        'type' => 'text',
+        'not null' => TRUE,
+      ),
+      'datebirth' => array (
+        'type' => 'int',
+        'not null' => TRUE,
+      ),
+      'style' => array (
+        'type' => 'int',
+        'not null' => TRUE,
+      ),
+      'substyle' => array (
+        'type' => 'int',
+        'not null' => TRUE,
+      ),
+    ),
+    'primary key' => array ('nid', 'vid'),
+    'indexes' => array (
+      'nid' => array ('nid')
+    ),
+  );
+  return $schema;
+}
